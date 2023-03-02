@@ -25,6 +25,11 @@ img{
 
 
 /*********************** Global or shared styles ***********************/
+
+$color-primarylight:#ffe2c2;
+$color-primarydark:#3a3939;
+
+
 /************************ BEM **************************/
 
 .card{
@@ -35,10 +40,10 @@ img{
 }
 
 .card--light{
-    background-color: bisque;
+    background-color: rgba($color-primarylight, 0.8);
 }
 .card--dark{
-    background-color: rgb(58, 57, 57);
+    background-color: rgba($color-primarydark, 0.8);
     color: aliceblue;
 }
 /* &__paragraph{
