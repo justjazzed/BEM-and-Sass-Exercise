@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: space-around;
+    background-color: aquamarine;
 }
     /************************ No BEM **************************/
 
@@ -9,7 +10,7 @@ body{
     margin: 2em;
     max-width: 300px;
     padding: 5em;
-    box-shadow: 0 20px 30px -20px rgba(0,0,0.4);
+    box-shadow: 0 20px 30px -20px rgba(0,0,0,0.4);
 }
 img{
     width: 100%;
@@ -20,7 +21,7 @@ img{
     max-width: 300px;
     padding: 5em;
     color: aliceblue;
-    box-shadow: 0 20px 30px -20px rgba(0,0,0.4);
+    box-shadow: 0 20px 30px -20px rgba(0,0,0,0.4);
 }
 
 
@@ -36,14 +37,14 @@ $color-primarydark:#3a3939;
     margin: 2em;
     max-width: 300px;
     padding:2em;
-    box-shadow: 0 20px 30px -20px rgba(0,0,0.4);
+    box-shadow: 0 20px 30px -20px rgba(0,0,0,0.4);
 }
 
 .card--light{
-    background-color: rgba($color-primarylight, 0.8);
+    background-color: rgba($color-primarylight,0.8);
 }
 .card--dark{
-    background-color: rgba($color-primarydark, 0.8);
+    background-color: rgba($color-primarydark,0.8);
     color: aliceblue;
 }
 /* &__paragraph{
